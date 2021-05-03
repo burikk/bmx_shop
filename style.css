@@ -1,0 +1,179 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin: 0 !important;
+}
+header
+{
+	width:100%;
+}
+.logo
+{
+	width: 100%;
+	font-size: 60px;
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #C48F3F;
+	text-align: center;
+	color:black;
+	line-height:100px;
+}
+.nav
+{ 
+	width: 100%;
+	background-color: #000000;
+	text-align: center;
+	color:white;
+}
+.content
+{
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	min-height:140vh;
+	flex-grow:1;
+}
+.boczna_kolumna
+{
+	width:200px;
+	background-color:white;
+	height:140vh;
+	font-size:23px;
+	text-align:center;
+	float: left;
+}
+.wrapper
+{
+	overflow:hidden;
+	display:flex;
+}
+ol
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	font-size:18px;
+	line-height:200%;
+	display:inline-block;
+	height:50px;
+}
+ol a
+{
+	color:white;
+	text-decoration:none;
+	display:block;
+	line-height:50px;
+}
+ol > li
+{
+	float:left;
+	width:150px;
+	height: 54px;
+}
+ol > li:hover
+{
+	background-color:#C48F3F;
+}
+ol > li:hover > a
+{
+	color:#000000;
+}
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 54px;
+	display: none;
+	margin-top:4px;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#333333;
+	position: relative;
+	z-index: 100;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #444444;
+	padding:4px;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #ffffff;
+}
+#zegar
+{
+	color:white;
+	margin-left:37px;	
+}
+.fa-shopping-cart , .fa-tools
+{
+	font-size:50px;
+	padding-top:30px;
+	align-items:center;
+}
+footer
+{
+	font-size:20px;
+	line-height:100px;
+	width:100%;
+	height:100px;
+	background-color:#000000;
+}
+#slider
+{
+	overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	padding-top:5px;
+	position:relative;
+}
+.span
+{
+	text-align:center;
+}
+iframe
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.odnosnik_slidera{
+	color: red;
+	cursor:pointer;
+}
+
+.pyt{
+	margin:25px;
+}
+td
+{
+	border:1px solid black;
+	padding:5px;
+}
+
+
+
+
+
